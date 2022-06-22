@@ -1,0 +1,13 @@
+feetBrownSand = https://unsplash.com/photos/EPklS0dwJl0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+feetWhiteSand = https://unsplash.com/photos/WXo5yzM9Ibw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+lotionandTowel = Photo by <a href="https://unsplash.com/@kmile_ch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Camille Brodard</a> on <a href="https://unsplash.com/s/photos/foot-care?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+feetwithflower = Photo by <a href="https://unsplash.com/@runejohs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rune Enstad</a> on <a href="https://unsplash.com/s/photos/pedicure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+bedandcoffee = https://unsplash.com/photos/2eDp0UqvgB8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+wellness = https://unsplash.com/photos/kXQ3J7_2fpc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+feetpicture = https://unsplash.com/photos/5OXE3KjDEfI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

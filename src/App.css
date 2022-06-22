@@ -6,7 +6,6 @@ h1 {
 }
 p {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
 }
 
 .headerImage {
@@ -35,10 +34,14 @@ p {
   text-align: center;
   padding-bottom: 1em;
 }
+.sectionText p {
+  font-size: 25px;
+
+}
 
 .services {
   width: 50%;
-  margin: 1em auto;
+  margin: 5em auto;
 }
 
 .footer {
@@ -47,4 +50,19 @@ p {
   justify-content: center;
 }
 
+.bookBtn {
+  display: flex;
+  justify-content: center;
+  margin: 5em 0 5em 0;
+} 
+
+.bookForm {
+  width: 70%;
+  margin: 4em auto;
+}
+
+.btn {
+  margin-top: 2em;
+  margin-right: 3em;
+}
 

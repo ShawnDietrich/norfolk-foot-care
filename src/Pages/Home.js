@@ -1,26 +1,21 @@
 import React from "react";
-import { Card, CardGroup, Col, Row } from 'react-bootstrap'
-import facebook from '../Pictures/facebook.png'
-import instagram from '../Pictures/instagram.png'
-import logo from '../Pictures/logonoback.png'
+import { Button, Card, CardGroup, Col, Row } from 'react-bootstrap'
+import {useNavigate} from 'react-router-dom'
 import expressped from '../Pictures/feetwithflower.jpg'
 import basicped from '../Pictures/lotionandTowel.jpg'
 import wellnessped from '../Pictures/wellness.jpg'
+
+
 const Home = () => {
 
+    const navigate = useNavigate()
+
+    function handleRoute() {
+        navigate('/Book')
+    }
 
     return (
         <div>
-            <header>
-                <div className="headerImage">
-                    <div className="headerText">
-
-                        <h1>Norfolk Foot Care</h1>
-                    </div>
-
-                </div>
-            </header>
-
             <div className="aboutSection">
                 <div className="sectionTitle">
                     <h1>About Norfolk Foot Care</h1>
@@ -32,7 +27,6 @@ const Home = () => {
                         I provide all COVID-19 Protocols for you in your place for a safe visit.
                     </p>
                 </div>
-
             </div>
 
             <div className="services">
@@ -59,9 +53,9 @@ const Home = () => {
                             </Card>
                         </Col>
                         <Col>
-                            <Card border="info" style={{ width: '18em', height:'31em' }}>
+                            <Card border="info" style={{ width: '18em' }}>
+                            <Card.Img src={wellnessped} />
                                 <Card.Body>
-                                    <Card.Img src={wellnessped} />
                                     <Card.Title>Wellness Pedicure</Card.Title>
                                     <Card.Text>This treatment starts with an examination of the foot, followed with a Foot Soak and with hydrational</Card.Text>
                                     <Card.Text>Duration varies · $55</Card.Text>
@@ -72,13 +66,9 @@ const Home = () => {
                 </CardGroup>
             </div>
 
-            <div className="footer">
-                <div className='socialLinks'>
-                    <img src={facebook} style={{ width: '50px' }} alt='facebook ' />
-                    <img src={logo} style={{ width: '200px' }} />
-                    <img src={instagram} style={{ width: '50px' }} alt='instagram ' />
-                </div>
-            </div>
+           <div className="bookBtn">
+                <Button variant="outline-info" size="lg" onClick={handleRoute}>Book Appointment</Button>
+           </div>
 
         </div>
     )
