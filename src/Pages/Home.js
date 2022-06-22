@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, CardGroup, Col, Row } from 'react-bootstrap'
+import { Button, Card, CardGroup, Col, Row, Tooltip } from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
 import expressped from '../Pictures/feetwithflower.jpg'
 import basicped from '../Pictures/lotionandTowel.jpg'
@@ -34,7 +34,7 @@ const Home = () => {
                     <Row className="justify-content-center">
                         <Col>
                             <Card border="info" style={{ width: '18em' }}>
-                                <Card.Img src={expressped} />
+                                <Card.Img src={expressped} alt='https://unsplash.com/@runejohs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'/>
                                 <Card.Body>
                                     <Card.Title>Express Pedicure</Card.Title>
                                     <Card.Text>Express treatment starts with a foot exam and soaking of the feet followed by reduction of nail thickness</Card.Text>
@@ -44,7 +44,7 @@ const Home = () => {
                         </Col>
                         <Col>
                             <Card border="info" style={{ width: '18em' }}>
-                                <Card.Img src={basicped} />
+                                <Card.Img src={basicped} alt='https://unsplash.com/@kmile_ch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'/>
                                 <Card.Body>
                                     <Card.Title>Basic Pedicure</Card.Title>
                                     <Card.Text>This basic foot care treatment starts with a foot exam and soaking of the feet followed by reduction of nails if</Card.Text>
@@ -54,7 +54,7 @@ const Home = () => {
                         </Col>
                         <Col>
                             <Card border="info" style={{ width: '18em' }}>
-                            <Card.Img src={wellnessped} />
+                            <Card.Img src={wellnessped} alt="https://unsplash.com/photos/kXQ3J7_2fpc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"/>
                                 <Card.Body>
                                     <Card.Title>Wellness Pedicure</Card.Title>
                                     <Card.Text>This treatment starts with an examination of the foot, followed with a Foot Soak and with hydrational</Card.Text>

@@ -39,6 +39,10 @@ p {
 
 }
 
+.sectionTitle {
+  margin-left: 3em;
+}
+
 .services {
   width: 50%;
   margin: 5em auto;
