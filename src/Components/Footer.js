@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer">
             <div className='socialLinks'>
                 <img src={facebook} style={{ width: '50px' }} alt='facebook ' />
-                <img src={logo} style={{ width: '200px' }} />
+                <img src={logo} style={{ width: '200px' }} alt="Norfolk Logo" />
                 <img src={instagram} style={{ width: '50px' }} alt='instagram ' />
             </div>
         </div>

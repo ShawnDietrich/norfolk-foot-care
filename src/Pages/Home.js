@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, CardGroup, Col, Row, Tooltip } from 'react-bootstrap'
+import { Button, Card, CardGroup, Col, Row } from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
 import expressped from '../Pictures/feetwithflower.jpg'
 import basicped from '../Pictures/lotionandTowel.jpg'
