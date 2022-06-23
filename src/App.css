@@ -23,6 +23,8 @@ p {
   font-weight: 500;
 }
 
+
+
 .aboutSection {
   padding-top: 2em;
   background-color: rgb(182, 226, 226);
@@ -43,11 +45,14 @@ p {
   margin-left: 3em;
 }
 
-.services {
-  width: 50%;
-  margin: 5em auto;
+.card-group {
+  display: flex;
+  justify-content: center;
 }
 
+.card {
+  margin-top: 2em;
+}
 .footer {
   background-color: rgb(182, 226, 226);
   display: flex;
@@ -66,7 +71,23 @@ p {
 }
 
 .btn {
-  margin-top: 2em;
-  margin-right: 3em;
+  margin: 2em auto;
 }
 
+.btnForm {
+  margin-right: 2em;
+}
+
+@media (max-width: 800px) {
+  .headerText h1 {
+    font-size: 50px;
+  }
+  .sectionText p {
+    font-size: 15px;
+  }
+  
+  .colServices {
+    display: flex;
+    justify-content: center;
+  }
+}

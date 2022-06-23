@@ -61,8 +61,8 @@ const Book = () => {
                     </Form.Group>
                 </Row>
 
-                <Button className="btn" variant='outline-info' type='submit'>Submit</Button>
-                <Button className="btn" variant="outline-danger" type="reset">Clear Form</Button>
+                <Button className="btnForm" variant='outline-info' type='submit'>Submit</Button>
+                <Button className="btnForm" variant="outline-danger" type="reset">Clear Form</Button>
             </Form>
 
         </div>
