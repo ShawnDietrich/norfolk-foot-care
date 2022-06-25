@@ -18,7 +18,7 @@ const Home = () => {
         <div>
             <div className="aboutSection">
                 <div className="sectionTitle">
-                    <h1>About Norfolk Foot Care</h1>
+                    <h1>About Norfolk Home Foot Care</h1>
                 </div>
                 <div className="sectionText">
                     <p>
