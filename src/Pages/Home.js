@@ -32,7 +32,7 @@ const Home = () => {
                 <CardGroup >
                     <Row className="justify-content-center">
                         <Col className="colServices">
-                            <Card border="info" style={{ width: '16em', height: '35em' }}>
+                            <Card border="info" style={{ width: '16em', height: '40em' }}>
                                 <Card.Img src={expressped} alt='https://unsplash.com/@runejohs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' />
                                 <Card.Body>
                                     <Card.Title>Express Pedicure</Card.Title>
@@ -42,7 +42,7 @@ const Home = () => {
                             </Card>
                         </Col>
                         <Col className="colServices">
-                            <Card border="info" style={{ width: '16em', height: '35em' }}>
+                            <Card border="info" style={{ width: '16em', height: '40em' }}>
                                 <Card.Img src={basicped} alt='https://unsplash.com/@kmile_ch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' />
                                 <Card.Body>
                                     <Card.Title>Basic Pedicure</Card.Title>
@@ -54,7 +54,7 @@ const Home = () => {
                             </Card>
                         </Col>
                         <Col className="colServices">
-                            <Card border="info" style={{ width: '16em', height: '35em' }}>
+                            <Card border="info" style={{ width: '16em', height: '40em' }}>
                                 <Card.Img src={wellnessped} alt="https://unsplash.com/photos/kXQ3J7_2fpc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" />
                                 <Card.Body>
                                     <Card.Title>Wellness Pedicure</Card.Title>
