@@ -38,12 +38,7 @@ const Book = () => {
         <div className="bookForm">
             <Alert key='info' variant="info" show={showMesg}>Your Booking Has Been Sent</Alert>
             <Form id="bookingForm" validated={validate} onSubmit={handleSubmit}>
-                <Row className="mb-3">
-                    <Form.Group as={Col} controlId='formGridDate'>
-                        <Form.Label>Requested Date Of Appointment</Form.Label>
-                        <FormControl name="date" type="date" required />
-                    </Form.Group>
-                </Row>
+                
                 <Row className='mb-3'>
                     <Form.Group as={Col} controlId='formGridFirstName'>
                         <Form.Label>First Name</Form.Label>
