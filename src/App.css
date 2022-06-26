@@ -51,6 +51,9 @@ p {
   margin-top: 2em;
 }
 
+.card-text {
+  padding-top: 2em;
+}
 .serviceNotes {
   margin-top: 2em;
   text-align: center;
