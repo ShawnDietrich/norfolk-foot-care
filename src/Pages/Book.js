@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Row, Col, FormControl, Button, Alert } from 'react-bootstrap'
 
+
 const Book = () => {
     //setup validate state
     const [validate, setValidate] = useState(false)
@@ -93,7 +94,10 @@ const Book = () => {
                 </Row>
 
                 <Button className="btnForm" variant='outline-info' type='submit'>Submit</Button>
+                <a className='btnForm btn btn-outline-info'  href='/' role='button'>Home</a>
                 <Button className="btnForm" variant="outline-danger" type="reset">Clear Form</Button>
+                
+
             </Form>
 
         </div>
