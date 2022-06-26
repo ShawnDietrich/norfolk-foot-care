@@ -34,11 +34,12 @@ p {
   padding-bottom: 1em;
 }
 .sectionText p {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .sectionTitle {
-  margin-left: 3em;
+  text-align: center;
+
 }
 
 .card-group {
@@ -49,11 +50,19 @@ p {
 .card {
   margin-top: 2em;
 }
+
+.serviceNotes {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 15px;
+}
 .footer {
   background-color: rgb(182, 226, 226);
   display: flex;
   justify-content: center;
 }
+
+
 
 .bookBtn {
   display: flex;

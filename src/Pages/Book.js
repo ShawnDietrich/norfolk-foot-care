@@ -23,11 +23,13 @@ const Book = () => {
                 Address2: e.target[4].value,
                 City: e.target[5].value,
                 Provence: e.target[6].value,
-                PostalCode: e.target[7].value
+                PostalCode: e.target[7].value,
+                Notes: e.target[8].value
             })
-        }).then( () => {
+        }).then(() => {
             setShowMesg(true)
-            e.target.map(item => item.value = null)
+           document.getElementById('bookingForm').reset()
+           
         })
     }
 
@@ -78,8 +80,15 @@ const Book = () => {
                         <FormControl name="province" type='province' placeholder='Ontario' />
                     </Form.Group>
                     <Form.Group as={Col} controlId='formgridPostal'>
-                        <Form.Label>Postal Code</Form.Label>
+                        <Form.Label>Postal</Form.Label>
                         <FormControl name="postal" type='postal' placeholder='' />
+                    </Form.Group>
+                </Row>
+
+                <Row className="mb-3">
+                    <Form.Group className="mb-3" controlId="ControlTextarea">
+                        <Form.Label>Notes:</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
                     </Form.Group>
                 </Row>
 
