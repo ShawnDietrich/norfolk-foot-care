@@ -24,7 +24,7 @@ const Home = () => {
                     <p>
                         Quality foot care that comes to you in your own home.
                     </p>
-                    <p>I am a certified PSW/Master Pedicures that provides foot care throughout Norfolk County</p>
+                    <p>I am a certified PSW/Master Pedicures that provides foot care throughout Norfolk Ontario</p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ const Home = () => {
                 </CardGroup>
                 <div className="serviceNotes">
                     <p>*I provide all COVID-19 Protocols for you in your place for a safe visit.</p>
-                    <p>**A Travel Fee of $10 will apply for services outside of Simcoe County</p>
+                    <p>**A Travel Fee of $10 will apply for services 17km outside of Simcoe, Ontario</p>
                 </div>
             </div>
 
