@@ -61,7 +61,7 @@ const Home = () => {
                                     <Card.Title>$55</Card.Title>
                                     <Card.Text>This treatment starts with an examination of the foot, followed with a Foot Soak and with hydrational exfoliating seaweed scrub.
                                         Reduction of nails if needed, cuticle work, clipping and filing the nail, callus removal.
-                                        The skin is further hydrated with a foot mousse followed by a massage lotion to the legs. Recommended for clients that have dry skin and or diabetic
+                                        The skin is further hydrated with a foot mousse followed by a massage lotion to the legs. Recommended for clients that have dry skin, are diabetic, and seniors
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
