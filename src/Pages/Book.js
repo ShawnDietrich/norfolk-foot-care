@@ -17,15 +17,14 @@ const Book = () => {
                 Accept: "application/json",
             },
             body: JSON.stringify({
-                Date: e.target[0].value,
-                FirstName: e.target[1].value,
-                LastName: e.target[2].value,
-                Address1: e.target[3].value,
-                Address2: e.target[4].value,
-                City: e.target[5].value,
-                Provence: e.target[6].value,
-                PostalCode: e.target[7].value,
-                Notes: e.target[8].value
+                FirstName: e.target[0].value,
+                LastName: e.target[1].value,
+                Address1: e.target[2].value,
+                Address2: e.target[3].value,
+                City: e.target[4].value,
+                Provence: e.target[5].value,
+                PostalCode: e.target[6].value,
+                Notes: e.target[7].value
             })
         }).then(() => {
             setShowMesg(true)
