@@ -19,12 +19,13 @@ const Book = () => {
             body: JSON.stringify({
                 FirstName: e.target[0].value,
                 LastName: e.target[1].value,
-                Address1: e.target[2].value,
-                Address2: e.target[3].value,
-                City: e.target[4].value,
-                Provence: e.target[5].value,
-                PostalCode: e.target[6].value,
-                Notes: e.target[7].value
+                Email: e.target[3].value,
+                Address1: e.target[4].value,
+                Address2: e.target[5].value,
+                City: e.target[6].value,
+                Provence: e.target[7].value,
+                PostalCode: e.target[8].value,
+                Notes: e.target[9].value
             })
         }).then(() => {
             setShowMesg(true)
@@ -47,6 +48,12 @@ const Book = () => {
                     <Form.Group as={Col} controlId='formGridLastName'>
                         <Form.Label>Last Name</Form.Label>
                         <FormControl name="lastName" type='lastName' placeholder='Enter Last Name' required />
+                    </Form.Group>
+                </Row>
+                <Row>
+                    <Form.Group as={Col} controlId="formGridEmail">
+                        <Form.Label>Email</Form.Label>
+                        <FormControl name="email" type='email' placeholder='Enter Email' required />
                     </Form.Group>
                 </Row>
 
