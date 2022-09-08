@@ -37,7 +37,7 @@ const Home = () => {
                                 <Card.Body>
                                     <Card.Title>Express Pedicure</Card.Title>
                                     <Card.Title>$35</Card.Title>
-                                    <Card.Text>Express treatment starts with a foot exam and soaking of the feet followed by reduction of nail thickness, clipping and filing the nail</Card.Text>
+                                    <Card.Text>Express treatment starts with a foot exam followed by clipping, filing nails, and a mini foot massage</Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
