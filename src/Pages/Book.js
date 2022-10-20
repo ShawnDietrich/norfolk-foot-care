@@ -19,13 +19,13 @@ const Book = () => {
             body: JSON.stringify({
                 FirstName: e.target[0].value,
                 LastName: e.target[1].value,
-                Email: e.target[3].value,
-                Address1: e.target[4].value,
-                Address2: e.target[5].value,
-                City: e.target[6].value,
-                Provence: e.target[7].value,
-                PostalCode: e.target[8].value,
-                Notes: e.target[9].value
+                Email: e.target[2].value,
+                Address1: e.target[3].value,
+                Address2: e.target[4].value,
+                City: e.target[5].value,
+                Province: e.target[6].value,
+                PostalCode: e.target[7].value,
+                Notes: e.target[8].value
             })
         }).then(() => {
             setShowMesg(true)
@@ -75,15 +75,15 @@ const Book = () => {
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId='formgridCity'>
                         <Form.Label>City</Form.Label>
-                        <FormControl name="city" type='city' placeholder='City' />
+                        <FormControl name="city" type='city' placeholder='City' required/>
                     </Form.Group>
                     <Form.Group as={Col} controlId='formgridProvince'>
                         <Form.Label>Province</Form.Label>
-                        <FormControl name="province" type='province' placeholder='Ontario' />
+                        <FormControl name="province" type='province' placeholder='Ontario' required />
                     </Form.Group>
                     <Form.Group as={Col} controlId='formgridPostal'>
                         <Form.Label>Postal</Form.Label>
-                        <FormControl name="postal" type='postal' placeholder='' />
+                        <FormControl name="postal" type='postal' placeholder='' required/>
                     </Form.Group>
                 </Row>
 
