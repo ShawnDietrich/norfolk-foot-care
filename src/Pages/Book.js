@@ -20,12 +20,13 @@ const Book = () => {
                 FirstName: e.target[0].value,
                 LastName: e.target[1].value,
                 Email: e.target[2].value,
-                Address1: e.target[3].value,
-                Address2: e.target[4].value,
-                City: e.target[5].value,
-                Province: e.target[6].value,
-                PostalCode: e.target[7].value,
-                Notes: e.target[8].value
+                Phone: e.target[3].value,
+                Address1: e.target[4].value,
+                Address2: e.target[5].value,
+                City: e.target[6].value,
+                Province: e.target[7].value,
+                PostalCode: e.target[8].value,
+                Notes: e.target[9].value
             })
         }).then(() => {
             setShowMesg(true)
@@ -41,49 +42,56 @@ const Book = () => {
                 
                 <Row className='mb-3'>
                     <Form.Group as={Col} controlId='formGridFirstName'>
-                        <Form.Label>First Name</Form.Label>
-                        <FormControl name="firstName" type='firstName' placeholder='Enter Name' required />
+                        
+                        <FormControl name="firstName" type='firstName' placeholder='First Name' required />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId='formGridLastName'>
-                        <Form.Label>Last Name</Form.Label>
-                        <FormControl name="lastName" type='lastName' placeholder='Enter Last Name' required />
+                        
+                        <FormControl name="lastName" type='lastName' placeholder='Last Name' required />
                     </Form.Group>
                 </Row>
-                <Row>
+                <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
-                        <Form.Label>Email</Form.Label>
-                        <FormControl name="email" type='email' placeholder='Enter Email' required />
+                       
+                        <FormControl name="email" type='email' placeholder='Email' required />
+                    </Form.Group>
+                </Row>
+
+                <Row className="mb-3">
+                    <Form.Group as={Col} controlId="formGridPhone">
+                        
+                        <FormControl name="Phone" type='phone' placeholder='Phone Number' required />
                     </Form.Group>
                 </Row>
 
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId='formgridAddress1'>
-                        <Form.Label>Address</Form.Label>
-                        <FormControl name="address" type='address1' placeholder='Enter Address' required />
+                        
+                        <FormControl name="address" type='address1' placeholder='Address' required />
                     </Form.Group>
 
                 </Row>
 
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId='formgridAddress2'>
-                        <Form.Label>Address 2</Form.Label>
+                       
                         <FormControl name="address2" type='address2' placeholder='Apartment #, Studio, or Floor' />
                     </Form.Group>
                 </Row>
 
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId='formgridCity'>
-                        <Form.Label>City</Form.Label>
+                        
                         <FormControl name="city" type='city' placeholder='City' required/>
                     </Form.Group>
                     <Form.Group as={Col} controlId='formgridProvince'>
-                        <Form.Label>Province</Form.Label>
+                       
                         <FormControl name="province" type='province' placeholder='Ontario' required />
                     </Form.Group>
                     <Form.Group as={Col} controlId='formgridPostal'>
-                        <Form.Label>Postal</Form.Label>
-                        <FormControl name="postal" type='postal' placeholder='' required/>
+                       
+                        <FormControl name="postal" type='postal' placeholder='Postal Code' required/>
                     </Form.Group>
                 </Row>
 
