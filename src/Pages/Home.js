@@ -24,7 +24,7 @@ const Home = () => {
                     <p>
                         Quality foot care that comes to you in your own home.
                     </p>
-                    <p>I am a certified PSW/Master Pedicures that provides foot care throughout Norfolk Ontario</p>
+                    <p>I am a certified Podologist / PSW that provides foot care throughout Norfolk Ontario</p>
                 </div>
             </div>
 
