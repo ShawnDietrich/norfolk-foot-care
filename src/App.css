@@ -20,6 +20,7 @@ p {
   padding-top: 2em;
   font-size: 100px;
   font-weight: 500;
+  text-shadow: black 5px 10px 8px;
 }
 
 .aboutSection {
@@ -61,8 +62,7 @@ p {
 }
 .footer {
   background-color: rgb(182, 226, 226);
-  display: flex;
-  justify-content: center;
+  padding: 3em 0
 }
 
 
@@ -97,5 +97,12 @@ p {
   .colServices {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 570px){
+  .icons{
+    text-align: center;
+    
   }
 }
