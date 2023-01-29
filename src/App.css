@@ -89,6 +89,9 @@ p {
   .headerText h1 {
     font-size: 50px;
   }
+  .headerImage{
+    padding-bottom: 8em;
+  }
   .sectionText p {
     font-size: 15px;
   }
