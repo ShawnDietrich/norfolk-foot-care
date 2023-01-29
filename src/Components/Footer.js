@@ -15,7 +15,7 @@ const Footer = () => {
                         </a>
                     </Col>
                     <Col align='center' sm>
-                        <img className="logo" src={footLogix} style={{ width: '10em' }} alt="Norfolk Logo" />
+                        <img className="logo" src={footLogix} style={{ width: '14em' }} alt="Norfolk Logo" />
                     </Col>
                 </Row>
                 <Row style={{margin: '1em'}}>
