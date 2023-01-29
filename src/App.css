@@ -12,15 +12,14 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 10em;
+  padding-bottom: 6em;
 }
 
 .headerText h1 {
   text-align: center;
-  padding-top: 2em;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 500;
-  text-shadow: black 5px 10px 8px;
+  padding-top: 2em;
 }
 
 .aboutSection {

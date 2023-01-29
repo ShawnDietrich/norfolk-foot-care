@@ -18,13 +18,13 @@ const Home = () => {
         <div>
             <div className="aboutSection">
                 <div className="sectionTitle">
-                    <h1>About Norfolk Home Foot Care</h1>
+                    <h2>About Norfolk Home Foot Care</h2>
                 </div>
                 <div className="sectionText">
                     <p>
                         Quality foot care that comes to you in your own home.
                     </p>
-                    <p>I am a certified Podologist / PSW that provides foot care throughout Haldimand-Norfolk Ontario</p>
+                    <p>I am a certified Podologist / PSW that provides foot care throughout Haldimand-Norfolk County</p>
                 </div>
             </div>
 
