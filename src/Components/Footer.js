@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import facebook from '../Pictures/facebook.png'
-import logo from '../Pictures/logonoback.png'
 import SchoolLogo from '../Pictures/NASP_logo.png'
 import footLogix from '../Pictures/footLogix.jpg'
 const Footer = () => {
