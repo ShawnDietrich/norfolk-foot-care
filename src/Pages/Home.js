@@ -33,16 +33,6 @@ const Home = () => {
                     <Row className="justify-content-center">
                         <Col className="colServices">
                             <Card border="info" style={{ width: '16em', height: '40em' }}>
-                                <Card.Img src={express} alt='https://unsplash.com/photos/7AcMUSYRZpU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink' />
-                                <Card.Body>
-                                    <Card.Title>Express Pedicure</Card.Title>
-                                    <Card.Title>$35</Card.Title>
-                                    <Card.Text>Express treatment starts with a foot exam followed by clipping, filing nails, and a mini foot massage</Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col className="colServices">
-                            <Card border="info" style={{ width: '16em', height: '40em' }}>
                                 <Card.Img src={basicped} alt='https://unsplash.com/@kmile_ch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' />
                                 <Card.Body>
                                     <Card.Title>Basic Pedicure</Card.Title>
